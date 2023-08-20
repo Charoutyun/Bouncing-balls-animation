@@ -1,13 +1,13 @@
 #include <iostream>
-#include <iomanip>
-
-
+#include "animate.h"
 using namespace std;
 
-int main(int argv, char** argc) {
-    cout << "\n\n"
-         << endl;
+int main()
+{
 
-    cout << "\n\n\n=====================" << endl;
+    animate game;
+    game.run();
+    cout<<endl<<endl<<"------ MAIN EXITING --------------------------"<<endl;
     return 0;
 }
+
